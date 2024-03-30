@@ -1,0 +1,45 @@
+:root{
+
+    /* Colors variables */
+    --background-button-color-hover-ios:#66E2DC;
+    --background-button-color-hover-android:#FFB964;
+    --background-button-color-ios:#FCFAF9;
+    --color-primary-or-button-color-android:#191826;
+    --color-price-section:#FA7453;     
+}
+    .container{
+        font-family: "IBM Plex sans", sans-serif;
+    }
+    body{
+        background-image: url('starter-code/assets/bg-main-desktop.png');
+    }
+
+    /* Typography*/
+
+    h1{
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    main .banner p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    main .download .p2{   /* should be add a color of the text next-time before commit*/
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    footer .credit p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
