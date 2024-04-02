@@ -1,3 +1,4 @@
+
 :root{
 
     /* Colors variables */
@@ -7,6 +8,7 @@
     --color-primary-or-button-color-android:#191826;
     --color-price-section:#FA7453;     
 }
+
     .container{
         font-family: "IBM Plex sans", sans-serif;
     }
@@ -14,32 +16,37 @@
         background-image: url('starter-code/assets/bg-main-desktop.png');
     }
 
-    /* Typography*/
+    /* Typography mobile screen */
 
     h1{
         font-weight: 700;
-        font-size: 88px;
-        line-height: 88px;
-        letter-spacing: -1px;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.45px;
+        color: var(--color-primary-or-button-color-android);
     }
     h2{
         font-weight: 700;
-        font-size: 40px;
-        line-height: 52px;
+        font-size: 32px;
+        line-height: 40px;
     }
     main .banner p{
         font-weight: 400;
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
     }
     main .download .p2{   /* should be add a color of the text next-time before commit*/
         font-weight: 400;
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 18px;
+        line-height: 28px;
     }
     footer .credit p{
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
+        color: var(--color-primary-or-button-color-android);
     }
+
 

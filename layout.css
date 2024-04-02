@@ -1,0 +1,67 @@
+:root{
+
+    /* Colors variables */
+    --background-button-color-hover-ios:#66E2DC;
+    --background-button-color-hover-android:#FFB964;
+    --background-button-color-ios:#FCFAF9;
+    --color-primary-or-button-color-android:#191826;
+    --color-price-section:#FA7453;     
+}
+/* mise en page du pied de page */
+
+@media screen and (max-width: 480px){
+    footer{
+        margin: 64px 24px 80px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    footer .credit-share{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    footer .share-icons{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
+/* Tablet design  */
+@media screen and (min-width: 481px) and (max-width: 1023px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin: 64px 24px 80px 24px;
+        gap: 32px;
+    }
+    footer .credit-share{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .share-icons{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+/* Computer design  */
+@media screen and (min-width: 1024px){
+    footer{
+        display: flex;
+        gap: 137px;
+        margin: 64px 24px 80px 24px;
+    }
+    footer .credit-share{
+        display: flex;
+        gap: 460px;
+        align-items: center;
+    }
+    footer .share-icons{
+        display: flex;
+        gap: 20px;
+    }
+}
+
