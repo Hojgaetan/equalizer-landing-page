@@ -12,13 +12,39 @@
 
 @media screen and (max-width: 480px){
 
+    /* Mise en page de l'en-tete */
+    .logo{
+        margin: 15px 24px
+
+    }
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.45px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
+    }
+    main .banner{
+        margin: 0 24px;
+    }
+    main .banner p{
+        width: 99%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
     /* Mise en page du corps du site  */
     .phone img{
         width: 208.97px;
         position: absolute;
         left: 80.67px;
         right: 85.66px;
-        top: 380px;
+        top: 500px;
     }
     .pattern img{
         position: absolute;
@@ -59,19 +85,42 @@
 /* Tablet design  */
 @media screen and (min-width: 481px) and (max-width: 1023px){
 
+    /* Mise en page de la partie head  */
+    .logo{
+        margin: 15px 0;
+    }
+    .header .flag{
+        position: absolute;
+        left: 550px;
+        top: -10px;
+        width: 266px;
+        height: 500px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
+        width: 520px;
+    }
+    .container{
+        margin: 0 39px;
+    }
+
     /* Mise en page du corps du site  */
     .phone img{
         width: 270.21px;
         position: absolute;
         left: 80.67px;
         right: 85.66px;
-        top: 380px;
+        top: 580px;
     }
     .pattern img{
         position: absolute;
         z-index: 0;
         left: 250px;
-        top: 480px;
         width: 40%;
     }
     section{
@@ -107,18 +156,44 @@
 /* Computer design  */
 
 @media screen and (min-width: 1024px){
+
+    /* Mise en page de la partie head */
+    .logo img{
+        margin: 15px 0;
+
+    }
+    main .banner p{
+        width: 825px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    h1{ 
+        width: 1015px;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        color: var(--color-primary-or-button-color-android);
+        text-align: left;
+    }
+    .container{
+        margin: 0 39px;
+    }
     .phone img{
         width: 312px;
         position: absolute;
-        left: 120.67px;
+        left: 200px;
         right: 90.66px;
-        top: 380px;
+        top: 500px;
     }
     .pattern img{
         position: absolute;
         z-index: 0;
         left: 25rem;
-        top: 480px;
         width: 30%;
     }
     section{

@@ -15,14 +15,6 @@
     body{
         background-image: url('starter-code/assets/bg-main-desktop.png');
     }
-
-    h1{
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 48px;
-        letter-spacing: -0.45px;
-        color: var(--color-primary-or-button-color-android);
-    }
     h2{
         font-weight: 700;
         font-size: 32px;
@@ -30,10 +22,19 @@
     }
     main .banner p{
         font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 34px;
         color: var(--color-primary-or-button-color-android);
         text-align: left;
+        letter-spacing: 1px;
+        width: 514px;
+    }
+    .header .flag{
+        position: absolute;
+        left: 1000px;
+        top: -10px;
+        width: 312px;
+        height: 468px;
     }
     
     /* Section premium EQ */
