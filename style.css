@@ -16,8 +16,6 @@
         background-image: url('starter-code/assets/bg-main-desktop.png');
     }
 
-    /* Typography mobile screen */
-
     h1{
         font-weight: 700;
         font-size: 40px;
@@ -37,10 +35,133 @@
         color: var(--color-primary-or-button-color-android);
         text-align: left;
     }
-    main .download .p2{   /* should be add a color of the text next-time before commit*/
+    
+    /* Section premium EQ */
+
+    main .section .download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--color-price-section);
+        padding: 48px 36px;
+        border-radius: 12px;
+    }
+    /* Mise en forme du prix  */
+    .download .price .price-number{
+        font-weight: 700;
+        line-height: 52px;
+        font-size: 65px;
+        letter-spacing: 1px;
+        width: auto;
+        text-align: left;
+        color: var(--background-button-color-ios);
+    }
+    .download .price p{
         font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        width: auto;
+        text-align: left;
+        color: var(--background-button-color-ios);
+    }
+    .download .price{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+/* Mise des boutons de téléchargements  */
+    button {
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        border: none;
+    }
+    .button-align{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .button-align .ios{
+        background: var(--color-primary-or-button-color-android);
+        cursor: pointer;
+    }
+    .button-align .ios:hover{
+        background: var(--background-button-color-hover-ios);
+        cursor: pointer;
+    }
+    .button-align .android{
+        background: var(--background-button-color-ios);
+        cursor: pointer;
+    }
+    .button-align .android:hover{
+        background: var(--background-button-color-hover-android);
+        cursor: pointer;
+    }
+    .button-align .layout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7.92px;
+    }
+    .button-align .ios-download{
+        color: var(--background-button-color-ios);
+    }
+    .button-align .android-download{
+        color: var(--color-primary-or-button-color-android);
+    }
+    .button-align .ios-download, .button-align .android-download{
+        font-weight: 700;
         font-size: 18px;
-        line-height: 28px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+        text-align: center;
+    }
+
+    /* Medias querry Mobile et Tablette */
+
+    @media screen and (max-width: 1023px){
+        main .download h2{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 1px;
+            color: var(--background-button-color-ios);
+            text-align: left;
+
+        }
+        main .download .p2{
+            width: 302px;  
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: var(--background-button-color-ios);
+            text-align: left;
+        }
+    }
+
+    /* Média queries Desktop et Laptop */
+
+    @media screen and (min-width: 1024px){
+        main .download h2{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            letter-spacing: 1px;
+            color: var(--background-button-color-ios);
+            text-align: left;
+
+        }
+        main .download .p2{
+            width: 302px;  
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 34px;
+            color: var(--background-button-color-ios);
+            text-align: left;
+            height: auto;
+        }
     }
     footer .credit p{
         font-weight: 400;

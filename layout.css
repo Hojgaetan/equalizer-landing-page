@@ -7,11 +7,39 @@
     --color-primary-or-button-color-android:#191826;
     --color-price-section:#FA7453;     
 }
-/* mise en page du pied de page */
+
+/* Mobile design  */
 
 @media screen and (max-width: 480px){
+
+    /* Mise en page du corps du site  */
+    .phone img{
+        width: 208.97px;
+        position: absolute;
+        left: 80.67px;
+        right: 85.66px;
+        top: 380px;
+    }
+    .pattern img{
+        position: absolute;
+        z-index: 0;
+        left: 47px;
+        right: 47px;
+        width: 65%;
+    }
+    section{
+        background: var(--color-primary-or-button-color-android);
+        border-radius: 12px;
+        margin-top: 166px;
+    }
+    section .download{
+        position: relative;
+        top: 360px;
+    }
+
+    /* mise en page du pied de page */
     footer{
-        margin: 64px 24px 80px 24px;
+        margin: 430px 24px 80px 24px;
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -30,10 +58,39 @@
 
 /* Tablet design  */
 @media screen and (min-width: 481px) and (max-width: 1023px){
+
+    /* Mise en page du corps du site  */
+    .phone img{
+        width: 270.21px;
+        position: absolute;
+        left: 80.67px;
+        right: 85.66px;
+        top: 380px;
+    }
+    .pattern img{
+        position: absolute;
+        z-index: 0;
+        left: 250px;
+        top: 480px;
+        width: 40%;
+    }
+    section{
+        background: var(--color-primary-or-button-color-android);
+        border-radius: 12px;
+        margin-top: 249px;
+    }
+    section .download{
+        position: relative;
+        top: 153px;
+        right: -238px;
+        width: 49%;
+    }
+
+    /* mise en page du pied de page */
     footer{
         display: flex;
         flex-direction: column;
-        margin: 64px 24px 80px 24px;
+        margin: 183px 24px 80px 24px;
         gap: 32px;
     }
     footer .credit-share{
@@ -48,11 +105,39 @@
 }
 
 /* Computer design  */
+
 @media screen and (min-width: 1024px){
+    .phone img{
+        width: 312px;
+        position: absolute;
+        left: 120.67px;
+        right: 90.66px;
+        top: 380px;
+    }
+    .pattern img{
+        position: absolute;
+        z-index: 0;
+        left: 25rem;
+        top: 480px;
+        width: 30%;
+    }
+    section{
+        background: var(--color-primary-or-button-color-android);
+        border-radius: 12px;
+        margin-top: 249px;
+    }
+    section .download{
+        position: relative;
+        top: 90px;
+        right: -45rem;
+        width: 30%;
+    }
+    
+/* mise en page du pied de page */
     footer{
         display: flex;
         gap: 137px;
-        margin: 64px 24px 80px 24px;
+        margin: 202px 24px 80px 24px;
     }
     footer .credit-share{
         display: flex;
